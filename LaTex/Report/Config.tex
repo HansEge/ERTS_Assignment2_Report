@@ -1,6 +1,6 @@
 \usepackage{graphicx}				% Used to include graphics
 \usepackage{helvet}					% Using Helvetica font
-\usepackage[parfill]{parskip}		% Removes indention of first line in paragraph
+%\usepackage[parfill]{parskip}		% Removes indention of first line in paragraph
 \usepackage[absolute]{textpos}		% used to insert cover image
 \usepackage{sectsty}				
 \usepackage[a4paper, headheight=14pt]{geometry}
@@ -33,6 +33,7 @@
 \usepackage{amssymb,amsmath}
 \usepackage[danish]{babel}	% Used for Danish terms... Figur instead fo Figure
 \usepackage[nottoc,notlof,notlot,numbib]{tocbibind}
+\usepackage{placeins} % For FloatBarrier
 
 % Johan's playground
 % --------------------------
@@ -45,7 +46,7 @@
 \newcommand{\markPassed}{\textcolor{green}{\cmark}}
 \newcommand{\markFailed}{\textcolor{red}{\xmark}}
 
-\usepackage{fontspec}
+%\usepackage{fontspec}
 
 \usepackage{bold-extra}
 \newcommand{\CS}{C\nolinebreak\hspace{-.05em}\raisebox{.6ex}{\scriptsize\bf\#}}
